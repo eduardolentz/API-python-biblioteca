@@ -1,0 +1,44 @@
+# Ignorar arquivos ou pastas que não devem ser versionados
+.vamp
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Distribuição / Packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Arquivos de ambiente (não versionar, para manter credenciais seguras)
+.env
+Config/.env
+
+# Cache de testes
+.pytest_cache/
+
+# Checkpoints de Jupyter Notebook
+.ipynb_checkpoints
+
+# Configurações de editores/IDE
+.vscode/
+.idea/
+
+# Arquivos específicos do Docker
+docker-compose.override.yml
+
+# Alembic (se não quiser versionar as migrações geradas automaticamente)
+alembic/
+
+# Arquivos do sistema
+.DS_Store
